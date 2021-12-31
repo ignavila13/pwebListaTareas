@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAC,KAAK,AAAA,QAAQ,GAAG,IAAI,CAAA;EACnB,eAAe,EAAE,YAAY;CAC9B",
+    "sources": [
+        "../../Practico3/scss/main.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

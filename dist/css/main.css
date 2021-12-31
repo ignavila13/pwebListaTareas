@@ -1,0 +1,4 @@
+li input:checked + span {
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=main.css.map */

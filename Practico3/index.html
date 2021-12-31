@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="css/main.css">
+        
+    <body>
+
+        <div id="todoSection" class="container">
+            <div class="div_header">
+                <h2>To do List!</h2>
+                <button id="btnFullscreen" class="button_style" onclick="fullScreen()"><img id='imgFullscreen' src='icons/fullscreen.svg'></button>
+            </div>
+            <div id="divWriteTask" class="div_body_task">
+                <div class="div_input_task">
+                    <input type="text" placeholder="" id="writeTask" class="input_task"> <button id="btnPlus" class="button_style" onclick="sendTaskToLS();"><img id="imgPlus" src="icons/plus.svg"></button>
+                </div>
+                
+                <ul id="list" class="list">
+                    
+                </ul>
+            </div>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        
+
+    </body>
+
+</html>

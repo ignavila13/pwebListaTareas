@@ -1,0 +1,49 @@
+
+body{
+    
+    background-repeat: no-repeat; 
+}
+
+#btnPlus{
+    background-color: transparent;
+    border: 0px;
+    
+    width: 27px;
+    height: 27px;
+    
+}
+
+
+
+#imgDelete{
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 0px;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+li #btnDelete{
+    margin-left: 30px;
+
+}
+
+li #chkTask{
+    margin-right: 30px;
+}
+
+#todoSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+
+}
+
+li input:checked + span{
+    text-decoration: line-through;
+  }

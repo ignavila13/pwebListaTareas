@@ -1,0 +1,124 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+ $white: rgba(238, 238, 238, 1);
+ $black: rgba(29, 28, 26, 1);
+
+body {
+    &.dark{
+        --letter: #{$white};
+        --background: #{$black};
+        color: var(--letter);
+        background-color: var(--background);
+    }
+
+    &.light{
+        --letter: #{$black};
+        --background: #{$white};
+        color: var(--letter);
+        background-color: var(--background);
+    }
+}
+
+
+
+.input_task{
+    display: flex;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 24px;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+        
+}
+
+.button_style{
+    height: 48px;
+    margin: 8px 8px 8px 8px;
+    background-color: transparent;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.button_style_white{
+    height: 48px;
+    margin: 8px 8px 8px 8px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 5px;
+}
+
+
+
+.span_task{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 24px;
+    display: flex;
+   //color: white;
+}
+
+.style_check{
+    height: 24px;
+    width: 24px;
+    border-radius: 2px;
+    margin-right: 8px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 25%;
+    width: 50%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.div_header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    //color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_body_task{
+    
+
+    justify-content: center;
+}
+
+
+.div_container_task{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:#3E3C3C;
+    margin: 8px 0px 8px 0px;
+    border-radius: 5px;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+
+.div_input_task{
+    display: flex;
+    justify-content: center;
+    background-color: #313030;
+    border-radius: 5px;
+    width: auto;
+    justify-content: space-between;
+}
+
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li input:checked + span{
+    text-decoration: line-through;
+  }
